@@ -23,7 +23,7 @@ from time import time
 #from sklearn import preprocessing
 
 
-with open('D:/Repositorio/Python/Coin TFM/ChartData/coin.pkl', 'rb') as input:
+with open('/ChartData/coin.pkl', 'rb') as input:
     coin = pickle.load(input)
      
 
